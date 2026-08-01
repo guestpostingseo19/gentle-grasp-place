@@ -6,17 +6,17 @@ import { PageHero, SectionTitle } from "@/components/Sections";
 export const Route = createFileRoute("/advertise")({
   head: () => ({
     meta: [
-      { title: "Advertise With Us | Guest Post Submissions — RankBridge" },
+      { title: "Write for Us — SEO & Link Building | RankBridge" },
       {
         name: "description",
         content:
-          "Editorial guidelines for contributing an article to the RankBridge blog: accepted topics, format requirements, review process and timelines.",
+          "Write for us: editorial guidelines for contributing an SEO, outreach or link building article to the RankBridge journal — accepted topics, format, review process and timelines.",
       },
-      { property: "og:title", content: "Advertise With Us | Guest Post Submissions — RankBridge" },
+      { property: "og:title", content: "Write for Us — SEO & Link Building | RankBridge" },
       {
         property: "og:description",
         content:
-          "Read our contributor guidelines before submitting an article for editorial review.",
+          "Contributor guidelines for the RankBridge journal: what we publish, what we decline, and how the editorial review works.",
       },
     ],
   }),
@@ -30,10 +30,11 @@ function Advertise() {
         eyebrow="Advertise with us"
         title={
           <>
-            Contribute to the <span className="text-gradient">RankBridge</span> journal
+            Write for us: contribute to the <span className="text-gradient">RankBridge</span> journal
           </>
         }
-        subtitle="We publish a small number of external articles each month. This page explains what we accept, how the review works, and what to prepare before sending anything."
+        subtitle="We publish a small number of external SEO, outreach and content marketing articles each month. This page explains what we accept, how the review works, and what to prepare before sending anything."
+
         image={blogImage}
       />
 

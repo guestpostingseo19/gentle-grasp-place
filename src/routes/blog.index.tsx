@@ -8,12 +8,13 @@ import { posts } from "@/data/posts";
 export const Route = createFileRoute("/blog/")({
   head: () => ({
     meta: [
-      { title: "Link Building & Outreach Insights | RankBridge Blog" },
+      { title: "Link Building Blog | Guest Posting & Outreach Insights" },
       {
         name: "description",
         content:
-          "Practical articles on guest posting, link evaluation, anchor text strategy and outreach, written from live RankBridge campaigns.",
+          "Practical link building and guest posting articles: anchor text distribution, guest post outreach, niche edits vs guest posts, link building pricing and ROI.",
       },
+
       { property: "og:title", content: "Link Building & Outreach Insights | RankBridge Blog" },
       {
         property: "og:description",
