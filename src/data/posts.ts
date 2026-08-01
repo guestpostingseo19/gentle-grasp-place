@@ -321,6 +321,155 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "guest-post-outreach-emails-that-get-replies",
+    title: "Guest Post Outreach: The Email Structure That Gets Replies",
+    description:
+      "A practical guest post outreach framework — how to research the editor, structure the pitch, and follow up once without becoming noise.",
+    category: "Outreach",
+    date: "2026-07-24",
+    readTime: "8 min read",
+    author: "RankBridge Editorial",
+    body: [
+      {
+        p: [
+          "Guest post outreach fails for one boring reason: the email is about the sender. Editors open dozens of pitches a week and almost all of them lead with a company introduction nobody asked for.",
+          "The structure below is what we use across thousands of pitches a year. It is not clever. It is just built around the only question an editor is actually asking: will this help my readers?",
+        ],
+      },
+      {
+        h: "Step one: research that takes four minutes, not forty",
+        ul: [
+          "Read the three most recent articles and note the house style",
+          "Find the editor's name on the masthead or a recent byline",
+          "Check whether your angle has already been covered in the last year",
+          "Note the typical article length and whether they use subheads and data",
+        ],
+      },
+      {
+        h: "Step two: the four-line pitch",
+        p: [
+          "Line one names the specific thing you read and why it prompted the email. Line two states the angle in a single sentence, as a working headline. Line three gives the evidence you can bring — original data, a case study, first-hand numbers. Line four offers the piece and stops.",
+          "No attachments, no drafts, no boilerplate about your award-winning agency.",
+        ],
+      },
+      {
+        h: "Step three: follow up once",
+        p: [
+          "One follow-up after five to seven working days, adding something new — a sharper headline, a data point, a second angle. If there is no reply after that, move on. A third email costs you the relationship for a placement you were never getting.",
+        ],
+      },
+      {
+        h: "What good response rates look like",
+        p: [
+          "Personalised guest post outreach in a defined niche typically lands between eight and twenty per cent positive replies. If you are under three per cent, the problem is almost always the angle, not the subject line.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "saas-link-building-strategy",
+    title: "SaaS Link Building: A Strategy That Survives Product Changes",
+    description:
+      "How SaaS and B2B teams should sequence link building across feature pages, comparison pages and the blog — and which assets actually attract links.",
+    category: "Strategy",
+    date: "2026-07-28",
+    readTime: "9 min read",
+    author: "RankBridge Editorial",
+    body: [
+      {
+        p: [
+          "SaaS link building has a structural problem: the pages that make money — feature pages, pricing, integrations — are the hardest pages in the world to earn a link to. Nobody cites a pricing page voluntarily.",
+          "The fix is not to point every link at the homepage. It is to build a small number of link-worthy assets and route their authority internally to the pages that convert.",
+        ],
+      },
+      {
+        h: "Which assets actually earn links in B2B",
+        ul: [
+          "Original benchmark data drawn from your own product usage, anonymised",
+          "Annual state-of-the-industry surveys with a repeatable methodology",
+          "Free calculators and templates that solve one narrow job",
+          "Genuinely opinionated teardowns written by a named practitioner",
+          "Integration and migration guides that other tools' users search for",
+        ],
+      },
+      {
+        h: "Sequence matters more than volume",
+        p: [
+          "Quarter one earns links to assets. Quarter two strengthens the category and comparison pages that sit one click from those assets. Quarter three points a smaller number of high-relevance placements directly at the commercial pages, once the surrounding topic already has authority.",
+          "Reversing that order is the most common reason a well-funded B2B link building programme produces referring domains and no pipeline.",
+        ],
+      },
+      {
+        h: "Internal linking is half of the work",
+        p: [
+          "Every link-earning asset should carry two or three contextual internal links to the commercial page it supports, using descriptive anchors. This is free, immediate, and consistently underused.",
+        ],
+      },
+      {
+        h: "E-commerce is the same problem with different pages",
+        p: [
+          "Swap feature pages for category pages and the model holds: earn links to buying guides and comparison content, then route equity to the categories that carry margin.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "link-building-pricing-explained",
+    title: "Link Building Pricing Explained: What You Are Actually Paying For",
+    description:
+      "A transparent breakdown of link building pricing — what drives cost per placement, which pricing models exist, and how to compare quotes honestly.",
+    category: "Buying Guide",
+    date: "2026-08-01",
+    readTime: "8 min read",
+    author: "RankBridge Editorial",
+    body: [
+      {
+        p: [
+          "Link building pricing is opaque because most quotes bundle three separate costs into one number: research, content and placement. Separate them and comparison becomes straightforward.",
+        ],
+      },
+      {
+        h: "The three cost components",
+        ul: [
+          "Research and qualification — the hours spent finding and vetting a publication",
+          "Content production — writing and editing to the host's standard",
+          "Placement — what the publication charges, if anything, for editorial time",
+        ],
+      },
+      {
+        h: "What drives cost per placement",
+        ul: [
+          "Real organic traffic on the host publication, not domain score",
+          "Topical closeness to your commercial pages",
+          "Whether the site is genuinely selective about what it runs",
+          "Editorial workload — data pieces cost more than commentary",
+          "Speed: rushed timelines always cost more than planned cadence",
+        ],
+      },
+      {
+        h: "Pricing models you will encounter",
+        p: [
+          "Per placement gives you the clearest audit trail. Monthly retainers buy cadence and strategy. Cost-per-link packages priced on domain metrics alone are the model to be most careful with, because the metric can be inflated far more cheaply than the audience can.",
+        ],
+      },
+      {
+        h: "How to compare two quotes fairly",
+        ul: [
+          "Ask for a sample shortlist with traffic figures, not just domain scores",
+          "Ask who writes the article and whether you approve it before submission",
+          "Ask what happens if a placement is removed within twelve months",
+          "Ask whether the publication is disclosed to you before outreach begins",
+        ],
+      },
+      {
+        h: "A sensible budget starting point",
+        p: [
+          "Most brands make more progress with four to eight well-chosen placements a month sustained for two quarters than with thirty cheap ones bought in a single burst. Consistency, not volume, is what compounds.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
