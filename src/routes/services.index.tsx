@@ -12,13 +12,13 @@ export const Route = createFileRoute("/services/")({
       {
         name: "description",
         content:
-          "Explore RankBridge services: guest posting, managed link building, niche edits, blogger outreach, digital PR and SEO content writing.",
+          "Six SEO link building services: guest posting, managed link building, niche edits, blogger outreach, digital PR and SEO content writing. Manual outreach, clear pricing.",
       },
       { property: "og:title", content: "Link Building & Guest Posting Services | RankBridge" },
       {
         property: "og:description",
         content:
-          "Six disciplines built around one goal: authority directed at the pages that earn revenue.",
+          "Guest posting, link building, niche edits, blogger outreach, digital PR and SEO content writing — one backlink strategy, six disciplines.",
       },
     ],
   }),
@@ -32,10 +32,12 @@ function ServicesIndex() {
         eyebrow="Services"
         title={
           <>
-            Everything needed to earn <span className="text-gradient">durable authority</span>
+            SEO link building services that earn{" "}
+            <span className="text-gradient">durable authority</span>
           </>
         }
-        subtitle="Each service is delivered by a dedicated team with its own quality standard. Run one, or combine several into a single managed programme."
+        subtitle="Six disciplines, each delivered by a dedicated team with its own quality standard. Run one, or combine several into a single managed backlink strategy."
+
         image={servicesImage}
         imageAlt="Abstract glass panels linked by luminous threads"
       />

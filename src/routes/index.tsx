@@ -17,18 +17,19 @@ import { posts } from "@/data/posts";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "RankBridge — Guest Posting & Link Building Services" },
+      { title: "Guest Posting & Link Building Services | RankBridge" },
       {
         name: "description",
         content:
-          "RankBridge is a guest posting and link building studio earning editorial placements on relevant, traffic-backed publications through manual outreach.",
+          "Manual guest posting and link building services: hand-vetted publications, contextual editorial links, niche edits and digital PR. Transparent pricing and reporting.",
       },
-      { property: "og:title", content: "RankBridge — Guest Posting & Link Building Services" },
+      { property: "og:title", content: "Guest Posting & Link Building Services | RankBridge" },
       {
         property: "og:description",
         content:
-          "Editorial guest posts, niche edits and digital PR that build authority the defensible way. Hand-vetted publications, transparent reporting.",
+          "Editorial guest posts, niche edits, blogger outreach and digital PR that build authority the defensible way. Hand-vetted publications, transparent reporting.",
       },
+
     ],
   }),
   component: Home,
@@ -112,16 +113,17 @@ export default function Home() {
             </Reveal>
             <Reveal delay={90}>
               <h1 className="mt-6 text-4xl font-bold leading-[1.06] sm:text-6xl md:text-7xl">
-                Authority you can <span className="text-gradient">defend</span>, earned one
-                placement at a time.
+                Guest posting and link building that earns{" "}
+                <span className="text-gradient">authority you can defend</span>.
               </h1>
             </Reveal>
             <Reveal delay={180}>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-                RankBridge places editorial articles and contextual links on publications with real
-                readers — vetted by hand, pitched by people, and reported in full. No networks, no
-                volume games, no surprises.
+                RankBridge is a manual outreach studio placing editorial guest posts and contextual
+                links on publications with real readers — vetted by hand, pitched by people, and
+                reported in full. No networks, no volume games, no surprises.
               </p>
+
             </Reveal>
             <Reveal delay={270}>
               <div className="mt-9 flex flex-wrap gap-3">
