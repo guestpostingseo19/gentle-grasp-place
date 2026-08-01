@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowRight, Check } from "lucide-react";
-import servicesImage from "@/assets/services.jpg";
+import { getServiceMedia } from "@/data/media";
 import { Reveal } from "@/components/Reveal";
 import { CtaBand, PageHero } from "@/components/Sections";
 import { getService, services, type Service } from "@/data/services";
@@ -33,6 +33,7 @@ export const Route = createFileRoute("/services/$slug")({
 
 function ServiceDetail() {
   const { service } = Route.useLoaderData() as { service: Service };
+  const media = getServiceMedia(service.slug);
   const others = services.filter((s) => s.slug !== service.slug).slice(0, 3);
 
   return (
@@ -41,11 +42,26 @@ function ServiceDetail() {
         eyebrow={service.name}
         title={service.tagline}
         subtitle={service.summary}
-        image={servicesImage}
+        image={media.src}
+        imageAlt={media.alt}
       />
 
       {/* Intro */}
       <section className="px-4 pb-16">
+        <div className="mx-auto mb-12 max-w-5xl">
+          <Reveal>
+            <figure className="overflow-hidden rounded-3xl border border-border">
+              <img
+                src={media.src}
+                alt={media.alt}
+                width={1280}
+                height={720}
+                loading="lazy"
+                className="h-64 w-full object-cover sm:h-96"
+              />
+            </figure>
+          </Reveal>
+        </div>
         <div className="mx-auto max-w-3xl space-y-5">
           {service.intro.map((p, i) => (
             <Reveal key={i} delay={i * 70}>

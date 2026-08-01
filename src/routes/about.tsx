@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import servicesImage from "@/assets/services.jpg";
+import { pageImages } from "@/data/media";
 import { Reveal } from "@/components/Reveal";
 import { CtaBand, PageHero, SectionTitle } from "@/components/Sections";
 
@@ -77,7 +77,8 @@ function About() {
           </>
         }
         subtitle="RankBridge exists because most link building is sold by volume and delivered by template. We build the other kind — fewer placements, each one defensible."
-        image={servicesImage}
+        image={pageImages.about}
+        imageAlt="A bridge silhouette lit by a mint line of light in fog"
       />
 
       <section className="px-4 pb-20">

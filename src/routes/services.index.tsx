@@ -4,6 +4,7 @@ import servicesImage from "@/assets/services.jpg";
 import { Reveal } from "@/components/Reveal";
 import { CtaBand, PageHero, SectionTitle } from "@/components/Sections";
 import { services } from "@/data/services";
+import { getServiceMedia } from "@/data/media";
 
 export const Route = createFileRoute("/services/")({
   head: () => ({
@@ -52,6 +53,14 @@ function ServicesIndex() {
                 className="group grid gap-6 rounded-3xl border border-border bg-card p-8 transition-all duration-500 hover:-translate-y-1 hover:border-primary/50 md:grid-cols-[1fr_1.6fr] md:p-10"
               >
                 <div>
+                  <img
+                    src={getServiceMedia(s.slug).src}
+                    alt={getServiceMedia(s.slug).alt}
+                    width={1280}
+                    height={720}
+                    loading="lazy"
+                    className="mb-5 h-36 w-full rounded-xl object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+                  />
                   <span className="font-display text-xs font-semibold text-primary">
                     Service 0{i + 1}
                   </span>
