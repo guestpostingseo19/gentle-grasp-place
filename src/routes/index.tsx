@@ -27,7 +27,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Editorial guest posts, niche edits, blogger outreach and digital PR that build authority the defensible way. Hand-vetted publications, transparent reporting.",
+          "Manual guest posting and link building services: hand-vetted publications, contextual editorial links, niche edits and digital PR. Transparent pricing and reporting.",
       },
 
     ],

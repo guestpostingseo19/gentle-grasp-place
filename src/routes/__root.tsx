@@ -80,16 +80,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "RankBridge — Guest Posting & Link Building Services" },
+      { title: "Guest Posting & Link Building Services | RankBridge" },
       {
         name: "description",
         content:
-          "RankBridge earns editorial guest posts and contextual links on relevant, traffic-backed publications through manual outreach and real relationships.",
+          "Manual guest posting and link building services: hand-vetted publications, contextual editorial links, niche edits and digital PR. Transparent pricing and reporting.",
       },
       { name: "author", content: "RankBridge" },
       { property: "og:site_name", content: "RankBridge" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Guest Posting & Link Building Services | RankBridge" },
+      { name: "twitter:title", content: "Guest Posting & Link Building Services | RankBridge" },
+      { property: "og:description", content: "Manual guest posting and link building services: hand-vetted publications, contextual editorial links, niche edits and digital PR. Transparent pricing and reporting." },
+      { name: "twitter:description", content: "Manual guest posting and link building services: hand-vetted publications, contextual editorial links, niche edits and digital PR. Transparent pricing and reporting." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/49c7abd3-49cb-410c-88e4-d7c41279abad/id-preview-e8a14a4f--6e53a1ca-16b1-43a4-b76e-1c2d8c949931.lovable.app-1785582278136.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/49c7abd3-49cb-410c-88e4-d7c41279abad/id-preview-e8a14a4f--6e53a1ca-16b1-43a4-b76e-1c2d8c949931.lovable.app-1785582278136.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
