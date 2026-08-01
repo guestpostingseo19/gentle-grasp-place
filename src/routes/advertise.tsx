@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import blogImage from "@/assets/blog.jpg";
+import { pageImages } from "@/data/media";
 import { Reveal } from "@/components/Reveal";
 import { PageHero, SectionTitle } from "@/components/Sections";
 
@@ -35,7 +35,8 @@ function Advertise() {
         }
         subtitle="We publish a small number of external SEO, outreach and content marketing articles each month. This page explains what we accept, how the review works, and what to prepare before sending anything."
 
-        image={blogImage}
+        image={pageImages.advertise}
+        imageAlt="Stack of glowing glass article cards"
       />
 
       <section className="px-4 pb-16">

@@ -4,6 +4,7 @@ import blogImage from "@/assets/blog.jpg";
 import { Reveal } from "@/components/Reveal";
 import { CtaBand, PageHero } from "@/components/Sections";
 import { posts } from "@/data/posts";
+import { getPostMedia } from "@/data/media";
 
 export const Route = createFileRoute("/blog/")({
   head: () => ({
@@ -64,10 +65,10 @@ function BlogIndex() {
                   </span>
                 </div>
                 <img
-                  src={blogImage}
-                  alt=""
-                  width={1408}
-                  height={912}
+                  src={getPostMedia(featured.slug).src}
+                  alt={getPostMedia(featured.slug).alt}
+                  width={1280}
+                  height={720}
                   loading="lazy"
                   className="h-56 w-full rounded-2xl object-cover md:h-full"
                 />
@@ -86,6 +87,14 @@ function BlogIndex() {
                 params={{ slug: p.slug }}
                 className="group flex h-full flex-col rounded-2xl border border-border bg-card p-7 transition-all duration-500 hover:-translate-y-1.5 hover:border-primary/50"
               >
+                <img
+                  src={getPostMedia(p.slug).src}
+                  alt={getPostMedia(p.slug).alt}
+                  width={1280}
+                  height={720}
+                  loading="lazy"
+                  className="mb-5 h-40 w-full rounded-xl object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+                />
                 <span className="text-xs font-semibold uppercase tracking-widest text-primary">
                   {p.category}
                 </span>

@@ -3,6 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 import { CtaBand } from "@/components/Sections";
 import { getPost, posts, type Post } from "@/data/posts";
+import { getPostMedia } from "@/data/media";
 
 export const Route = createFileRoute("/blog/$slug")({
   loader: ({ params }): { post: Post } => {
@@ -32,6 +33,7 @@ export const Route = createFileRoute("/blog/$slug")({
 
 function BlogPost() {
   const { post } = Route.useLoaderData() as { post: Post };
+  const media = getPostMedia(post.slug);
   const related = posts.filter((p) => p.slug !== post.slug).slice(0, 3);
 
   return (
@@ -74,6 +76,19 @@ function BlogPost() {
             <p className="mt-8 border-l-2 border-primary pl-5 text-lg leading-relaxed text-foreground/90">
               {post.description}
             </p>
+          </Reveal>
+
+          <Reveal delay={300}>
+            <figure className="mt-10 overflow-hidden rounded-3xl border border-border">
+              <img
+                src={media.src}
+                alt={media.alt}
+                width={1280}
+                height={720}
+                loading="lazy"
+                className="h-56 w-full object-cover sm:h-80"
+              />
+            </figure>
           </Reveal>
 
           <div className="mt-10 space-y-8">

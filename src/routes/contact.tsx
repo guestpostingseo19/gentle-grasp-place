@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Clock, Globe2, Mail, MessageSquare } from "lucide-react";
-import servicesImage from "@/assets/services.jpg";
+import { pageImages } from "@/data/media";
 import { Reveal } from "@/components/Reveal";
 import { PageHero, SectionTitle } from "@/components/Sections";
 
@@ -56,7 +56,8 @@ function Contact() {
           </>
         }
         subtitle="We deliberately do not run a contact form. Email reaches the team directly, keeps your context intact, and gets you a considered reply instead of an auto-response."
-        image={servicesImage}
+        image={pageImages.contact}
+        imageAlt="Beams of mint light converging to a single point"
       />
 
       <section className="px-4 pb-20">
