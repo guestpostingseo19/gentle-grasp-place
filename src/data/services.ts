@@ -19,11 +19,12 @@ export const services: Service[] = [
     tagline: "Editorial placements on sites people actually read",
     summary:
       "Researched, written and placed guest articles on relevant publications with real audiences and clean link profiles.",
-    metaTitle: "Guest Posting Services | Editorial Placements — RankBridge",
+    metaTitle: "Guest Posting Services That Earn Real Editorial Links",
     metaDescription:
-      "RankBridge guest posting services secure editorial placements on relevant, traffic-backed publications. Manual outreach, original writing, transparent reporting.",
+      "Guest posting services from RankBridge: hand-vetted publications, original guest post outreach and contextual editorial links. See what is included and what it costs.",
     intro: [
       "Guest posting is still the most durable way to earn contextual links, because it trades value for value: you give an editor a genuinely useful article, and their readers give you attention and a citation.",
+      "Our guest post service covers the whole chain — prospecting, guest post outreach, writing, editing and placement — so guest blogging becomes a repeatable channel instead of a one-off favour.",
       "RankBridge runs guest posting as an editorial programme rather than a volume game. Every publication is vetted by hand for topical relevance, organic visibility and outbound-link hygiene before a single pitch is sent.",
       "The result is a link profile that reads like the natural footprint of a company people talk about — because that is exactly what it is.",
     ],
@@ -103,6 +104,18 @@ export const services: Service[] = [
         q: "How long until I see results?",
         a: "Indexation usually happens within days. Ranking movement typically becomes visible between eight and sixteen weeks, depending on competition and the strength of the target page.",
       },
+      {
+        q: "What is a guest posting service, exactly?",
+        a: "A guest posting service researches relevant publications, pitches an editor an article idea, writes the piece to that publication's standard, and places a contextual link to your site inside it. The deliverable is a live, editorially approved article — not a directory listing or a paid banner.",
+      },
+      {
+        q: "How much do guest posting services cost?",
+        a: "Price tracks the publication, not the word count. Most programmes sit between a few hundred pounds per placement on strong niche publications and considerably more for national or trade titles. We quote per shortlist, so you approve the cost before anything is written.",
+      },
+      {
+        q: "Is guest blogging still good for SEO?",
+        a: "Yes, when the article is genuinely useful and the publication has real readers. What no longer works is bulk guest blogging on sites with no audience — exactly the inventory we refuse to touch.",
+      },
     ],
   },
   {
@@ -111,13 +124,14 @@ export const services: Service[] = [
     tagline: "A managed authority programme, not a list of URLs",
     summary:
       "Full-service link acquisition combining outreach, digital PR and editorial placement, planned around your commercial pages.",
-    metaTitle: "Link Building Services | Managed Authority Programmes — RankBridge",
+    metaTitle: "Link Building Services | Managed Packages & Pricing",
     metaDescription:
-      "Managed link building from RankBridge: competitor gap analysis, manual outreach, editorial placements and monthly reporting built around your revenue pages.",
+      "Manual link building services with transparent packages and pricing: competitor gap analysis, editorial placements, white label delivery and monthly reporting.",
     intro: [
       "Search engines still treat links as votes, but they have become far better at reading intent. A link from a page nobody visits, on a site with no topical footprint, carries almost nothing.",
       "Our managed link building programme starts from your commercial goals and works backwards: which pages need to rank, what authority gap separates them from the current top three, and what mix of placements closes that gap credibly.",
       "You get a plan, a cadence, and a monthly record of exactly what was earned and why.",
+      "We run SaaS link building, B2B link building and e-commerce link building programmes, plus white label link building for agencies who need fulfilment under their own brand.",
     ],
     whatYouGet: [
       {
@@ -191,6 +205,22 @@ export const services: Service[] = [
         q: "Can you work alongside our existing agency?",
         a: "Frequently. We slot in as the acquisition arm while your agency owns on-page and technical work, sharing reporting so nothing is duplicated.",
       },
+      {
+        q: "How is your link building pricing structured?",
+        a: "Per placement, not per report. Each shortlist shows the publication, the expected cost and the reason it fits, so you approve spend before outreach begins. A monthly retainer simply fixes the cadence and reporting rhythm around that.",
+      },
+      {
+        q: "Do you offer link building packages by volume?",
+        a: "We offer cadence tiers rather than fixed bundles, because a good month in a narrow niche looks different from a good month in a broad one. Most programmes run four to twelve editorial placements a month.",
+      },
+      {
+        q: "Do you provide white label link building for agencies?",
+        a: "Yes. Reporting can be delivered unbranded or inside your own template, and we never contact your client directly.",
+      },
+      {
+        q: "What makes manual link building different from buying links?",
+        a: "Manual link building earns a placement by giving a publisher something their audience wants. Bought links skip that step, which is precisely what makes them detectable and fragile.",
+      },
     ],
   },
   {
@@ -199,11 +229,11 @@ export const services: Service[] = [
     tagline: "Links inserted into content that already ranks",
     summary:
       "Placements added to established, indexed articles that already hold traffic and topical trust — faster to earn, quicker to count.",
-    metaTitle: "Niche Edit Services | Curated Link Insertions — RankBridge",
+    metaTitle: "Niche Edits & Link Insertion Service | Contextual Backlinks",
     metaDescription:
-      "RankBridge niche edits place contextual links inside established, already-indexed articles with existing traffic and topical relevance. Editor-approved, fully reported.",
+      "A link insertion service that places contextual backlinks inside aged, already-indexed articles with real traffic. Editor-approved niche edits, fully reported.",
     intro: [
-      "A niche edit — sometimes called a curated link or link insertion — places your citation inside an article that has already been indexed, aged and, ideally, is already ranking.",
+      "A niche edit — also called a curated link, contextual backlink or link insertion — places your citation inside an article that has already been indexed, aged and, ideally, is already ranking.",
       "The advantage is speed and inherited trust: the host page has crawl history, internal links and often live traffic on day one, so the placement is discovered and valued faster than a brand-new post.",
       "The risk is that the tactic is easy to do badly. We only pursue edits where the insertion genuinely improves the article for its reader, and where the editor approves the change on the record.",
     ],
@@ -279,6 +309,14 @@ export const services: Service[] = [
         q: "How quickly do edits take effect?",
         a: "Because the page is already indexed, recrawl often happens within one to three weeks.",
       },
+      {
+        q: "Niche edits vs guest posts — which should I choose?",
+        a: "Niche edits inherit an aged page's crawl history and traffic, so they tend to register faster and cost less per placement. Guest posts give you full control of the narrative, the anchor context and the target page. Most healthy profiles use both, weighted towards guest posts.",
+      },
+      {
+        q: "Are contextual backlinks safe?",
+        a: "A contextual backlink is only as safe as the page hosting it. We insist on topical relevance, a real traffic history, sane outbound-link counts and editorial approval on the record — the four things that separate a durable insertion from a footprint.",
+      },
     ],
   },
   {
@@ -287,9 +325,9 @@ export const services: Service[] = [
     tagline: "Real relationships with people who have real audiences",
     summary:
       "Personalised outreach to independent publishers, creators and niche bloggers who influence buying decisions in your category.",
-    metaTitle: "Blogger Outreach Services | Creator Partnerships — RankBridge",
+    metaTitle: "Blogger Outreach Services | Personalised Creator Outreach",
     metaDescription:
-      "RankBridge blogger outreach builds genuine relationships with independent publishers and niche creators, earning coverage and links that reach engaged audiences.",
+      "Blogger outreach services built on real relationships: manual prospecting, personalised pitching and SEO outreach that earns coverage from creators with engaged audiences.",
     intro: [
       "Independent publishers punch far above their domain metrics. Their readers subscribe, comment, and buy — which is precisely why a mention from them tends to outperform a placement on a larger, more generic site.",
       "Our blogger outreach programme is relationship-led. We research who genuinely covers your category, learn what their audience responds to, and approach them with something worth their time.",
@@ -375,9 +413,9 @@ export const services: Service[] = [
     tagline: "Stories worth covering, placed where they carry weight",
     summary:
       "Data-led campaigns, expert commentary and newsworthy assets that earn coverage from journalists and major publications.",
-    metaTitle: "Digital PR Services | Earned Media & Links — RankBridge",
+    metaTitle: "Digital PR Agency | Data-Led Campaigns & Earned Links",
     metaDescription:
-      "RankBridge digital PR creates data-led stories and expert commentary that earn coverage from journalists on high-authority publications, with links that endure.",
+      "A digital PR agency built for search: data-led stories, expert commentary and newsworthy assets that earn journalist coverage and editorial links on major publications.",
     intro: [
       "Digital PR is the highest ceiling in link acquisition. A single well-placed story can earn coverage across dozens of publications that would never accept a pitch for a standard contributed article.",
       "It is also the most demanding, because journalists respond to news, data and expertise — not to marketing copy. Our approach starts with finding something genuinely worth saying about your category.",
@@ -463,9 +501,9 @@ export const services: Service[] = [
     tagline: "Pages built to rank and written to be read",
     summary:
       "Search-informed articles, landing pages and pillar content produced by writers who understand both your topic and search intent.",
-    metaTitle: "SEO Content Writing Services | Editorial Quality — RankBridge",
+    metaTitle: "SEO Content Writing Services | Intent-Led, Human Written",
     metaDescription:
-      "RankBridge SEO content writing delivers research-led articles, landing pages and pillar content written for search intent and real readers alike.",
+      "SEO content writing services from RankBridge: intent-mapped briefs, subject-matter writers and human editing for articles, landing pages and pillar content that rank.",
     intro: [
       "Links point somewhere. If that destination is thin, generic or clearly written for an algorithm, the authority you earn has nothing to hold onto.",
       "Our writing team pairs search research with genuine subject knowledge, producing pages that satisfy the query, answer the follow-up questions, and give an editor a reason to cite them.",
